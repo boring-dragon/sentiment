@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "MvTyper";
+    src: url("/fonts/mvtyper.ttf");
+  }
+  
+  @font-face {
+    font-family: "MvAamu";
+    src: url("/fonts/mv-aammu-fk.ttf");
+  }
+  
+  @font-face {
+    font-family: "MVTyperBold";
+    src: url("/fonts/mvtypebold.ttf");
+  }
+
+  .heading-para-dhivehi
+  {
+      font-family: MVTyperBold;
+  }
+
+  .heading-dhivehi
+  {
+    font-family: MvAamu;
+  }
+
+  .para-dhivehi 
+  {
+    font-family: MvTyper;
+  }
