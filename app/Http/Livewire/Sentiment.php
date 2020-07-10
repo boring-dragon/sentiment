@@ -23,7 +23,9 @@ class Sentiment extends Component
         return view('livewire.sentiment', [
             'comment' => Comment::whereNull('sentiment')
                 ->inRandomOrder()
-                ->first()
+                ->first(),
+            'comments_left' => Comment::whereNull('sentiment')->count(),
+            'comments_done' => Comment::whereNotNull('sentiment')->count()
         ]);
     }
 }
