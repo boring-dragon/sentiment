@@ -2,7 +2,7 @@
 
 ![screenshot](screenshot.PNG)
 
-Sequence labeling tool for easily create datasets for sentiment Analysis . Built with laravel and livewire. (Experimental Project)
+Dhivehi Text labeling tool for easily create datasets for sentiment Analysis . Built with laravel and livewire. (Experimental Project)
 
 | Type     | Value |
 |:--------:|:-----:|
